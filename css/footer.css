@@ -1,0 +1,155 @@
+#new_ft {
+    width: 100%;
+    height: auto;
+}
+
+#new_ft .ft_area {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+#new_ft .ft_con {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+/*바로가기*/
+#new_ft .more_box {
+    width: 100%;
+    height: auto;
+    position: relative;
+    font-size: 0;
+}
+
+#new_ft .more_box > li {
+    width: auto;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+}
+
+#new_ft .more_box > li::after {
+    content: '';
+    display: block;
+    width: 1px;
+    height: 17px;
+    background-color: #fff;
+    position: absolute;
+    right: 0;
+    top: 17px;
+    z-index: 99;
+}
+
+#new_ft .more_box > li:last-of-type::after {
+    content: none;
+}
+
+#new_ft .more_box > li > a {
+    display: block;
+    width: 100%;
+    position: relative;
+    padding: 10px 47.7px;
+    background-color: #001c3c;
+    font-size: 1.188rem;
+    font-weight: 300;
+    letter-spacing: -1px;
+    color: #fff;
+}
+
+/*바로가기 end*/
+
+/*푸터정보*/
+#new_ft .ft_cont {
+    width: 100%;
+    height: auto;
+    position: relative;
+    background-color: #003471;
+    padding: 30px 50px;
+    overflow: hidden;
+}
+
+#new_ft .ft_cont .ft_logo {
+    width: 245px;
+    height: auto;
+    position: relative;
+    text-align: center;
+    float: left;
+    top: 25px;
+}
+
+#new_ft .ft_cont .ft_logo::after {
+    content: '';
+    width: 3px;
+    height: 82px;
+    background-color: #0f3f78;
+    position: absolute;
+    right: 0;
+    top: -18px;
+}
+
+#new_ft .ft_cont .ft_logo > img {
+    width: auto;
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+#new_ft .ft_cont .ft_txt {
+    width: auto;
+    float: left;
+    padding-left: 25px;
+}
+
+#new_ft .ft_cont .ft_txt .address {
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin-bottom: 5px;
+}
+
+#new_ft .ft_cont .ft_txt .address > h2 {
+    font-size: 1.188rem;
+    color: #fff;
+    letter-spacing: -1px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+#new_ft .ft_cont .ft_txt .address > h2 > span {
+    font-size: 1.125rem;
+    margin-left: 15px;
+}
+
+#new_ft .ft_cont .ft_txt .txt {
+    width: 100%;
+    height: auto;
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -moz-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    margin-bottom: 10px;
+} 
+
+#new_ft .ft_cont .ft_txt .txt > li {
+    width: auto;
+    height: auto;
+    border: 1px solid #325988;
+}
+
+#new_ft .ft_cont .ft_txt .txt > li > a {
+    font-size: 0.875rem;
+    color: #657d9b;
+    font-weight: 300;
+    padding: 2px 10px;
+}
+
+#new_ft .ft_cont .ft_txt > p {
+    font-size: 0.625rem;
+    color: #9db6d4;
+    font-weight: 300;
+    opacity: 0.7;
+}
+
+/*푸터정보 end*/
